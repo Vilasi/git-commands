@@ -60,6 +60,13 @@ $ git branch --merged
 $ git merge [Branch Name]
 $ git push origin master
 
+DELETE A BRANCH
+
+$ branch --merged (To test that things are merged or not)
+$ git branch -d [Branch Name] : To Delete a Branch Locally
+$ git branch -a : To see all branches locally and remotely 
+$ git push origin --delete [Branch Name] : To delete a branch locally and remotely 
+
 
 
 
