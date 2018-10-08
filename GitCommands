@@ -35,3 +35,17 @@ git branch [Name of Branch]: To make a new branch
 git branch: To see all local branches 
 git checkout [branch name]: To switch to a branch 
 
+PUSHING CHANGES:
+
+COMMIT
+$ git diff
+$ git status
+$ git add -A   (-A denotes adding all files)
+git commit -m "Descriptive Text"
+
+Then Push:
+$ git pull origin master
+$ git push origin master
+
+
+
