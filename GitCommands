@@ -52,5 +52,14 @@ $ git branch: To see all local branches
 $ git checkout [branch name]: To switch to a branch 
 
 
+MERGE A BRANCH
+
+$ git checkout master
+$ git pull origin master
+$ git branch --merged
+$ git merge [Branch Name]
+$ git push origin master
+
+
 
 
